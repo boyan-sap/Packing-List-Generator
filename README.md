@@ -22,12 +22,7 @@ Your Excel file must include these columns:
 
 | Customer Name (MPO) | Delivery | Material | Article | EAN | Material Name | Qty | Collab Order | Delivery Address |
 |---------------------|----------|----------|---------|-----|----------------|-----|----------------|------------------|
-
-Example:
-
-| MPO         | Delivery | Material | Article | EAN         | Material Name | Qty | Collab Order | Delivery Address        |
-|-------------|----------|----------|---------|-------------|----------------|-----|----------------|--------------------------|
-| Store A     | 123456   | 111111   | 222222  | 1234567890123 | Power Cable   | 10  | ORD001         | Some Street 123, City   |
+| Store A             | 123456   | 111111   | 222222  | 1234567890123    | Power Cable   | 10  | ORD001         | Some Street 123, City |
 
 ---
 
