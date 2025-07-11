@@ -1,0 +1,63 @@
+ 🚀 How to Use
+Place your Excel file in the script directory and name it: packing_list.xlsx
+
+Ensure the following files are available in the same folder:
+
+arial.ttf (font)
+
+logo1.png (main logo)
+
+thmlogo.png (secondary logo, optional)
+
+Run the script:
+
+bash
+Copy
+Edit
+python generate_mpo_packing_lists.py
+When prompted, enter the delivery date in this format: dd.mm.yyyy
+
+PDFs will be saved in the generated_packing_lists/ folder and opened automatically
+
+📁 Output Structure
+Copy
+Edit
+generated_packing_lists/
+├── Refill_Store_A.pdf
+├── Refill_Store_B.pdf
+└── All_Refills_Combined.pdf
+Each PDF includes:
+
+Customer name and delivery address
+
+Table of items (Delivery, Material, Article, EAN, Material Name, Quantity, Collab Order)
+
+Delivery date
+
+Signature fields (Issued, Taken, Received)
+
+Company logos and official header/footer
+
+🧠 Notes
+Font: arial.ttf must be accessible in the same directory or system fonts
+
+Logos used:
+
+logo1.png – main company logo
+
+thmlogo.png – optional branding
+
+The script is compatible with .py and .exe (built via PyInstaller)
+
+Designed for A4 landscape format
+
+📌 Customization
+Want to:
+
+Add custom branding?
+
+Change or reorder table columns?
+
+Include barcode generation?
+
+Feel free to modify the script or open an Issue or Pull Request on this repository.
